@@ -1,0 +1,20 @@
+{
+	"name": "roopesh2.github.io",
+	"version": "1.0.0",
+	"description": "PHP - Personal Home Page",
+	"scripts": {
+		"fmt": "prettier . --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github.com/Roopesh2/roopesh2.github.io"
+	},
+	"keywords": [
+		"landing page"
+	],
+	"author": "Roopesh OR",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.0.2"
+	}
+}
