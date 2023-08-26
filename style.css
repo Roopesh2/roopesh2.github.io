@@ -1,0 +1,126 @@
+html,
+body {
+	box-sizing: border-box;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.hero {
+	text-align: center;
+	background: rgb(17,17,17);
+	background: linear-gradient(124deg, rgba(17,17,17,1) 0%, rgba(9,49,89,1) 100%); 
+	color: white;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.font-large {
+	margin: 0;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+.minor-info {
+	color: #aaa;
+}
+
+body > div {
+	padding: 1rem;
+	text-align: center;
+}
+div > h2 {
+	margin: 2rem auto;
+	position: relative;
+	background-color: #fff;
+	padding: 0 1rem;
+	width: max-content;
+}
+
+hr {
+	transform: translateY(55px);
+}
+
+.no-highlight {
+	text-decoration: none;
+	color: unset;
+}
+.badge {
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	display: flex;
+	width: min-content;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+}
+
+.badge img {
+	height: 100%;
+	padding-right: 0.5rem;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.cards-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.card {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 3rem;
+	min-width: 400px;
+	width: auto;
+	margin: 1.5rem 0;
+}
+
+.card-title {
+	font-size: 25px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.connections a {
+	text-decoration: none;
+}
+
+footer {
+	background: rgb(17,17,17);
+	background: linear-gradient(124deg, rgba(17,17,17,1) 0%, rgba(9,49,89,1) 100%); 
+	padding: 1.4rem;
+	text-align: center;
+	margin-top: 1rem;
+	line-height: 2.3rem;
+}
+footer a {
+	text-decoration: none;
+	color: #aaa;
+	margin: 0 1rem;
+}
