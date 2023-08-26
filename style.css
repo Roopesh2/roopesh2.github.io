@@ -9,8 +9,8 @@ body {
 
 .hero {
 	text-align: center;
-	background: rgb(17,17,17);
-	background: linear-gradient(124deg, rgba(17,17,17,1) 0%, rgba(9,49,89,1) 100%); 
+	background: rgb(17, 17, 17);
+	background: linear-gradient(124deg, rgba(17, 17, 17, 1) 0%, rgba(9, 49, 89, 1) 100%);
 	color: white;
 	height: 80vh;
 	display: flex;
@@ -61,7 +61,7 @@ hr {
 	border: 1px solid #aaa;
 	border-radius: 5px;
 	display: flex;
-	width: min-content;
+	width: max-content;
 	padding: 5px;
 	align-items: center;
 	justify-content: center;
@@ -95,7 +95,6 @@ hr {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	padding: 3rem;
 	min-width: 400px;
-	width: auto;
 	margin: 1.5rem 0;
 }
 
@@ -112,8 +111,8 @@ hr {
 }
 
 footer {
-	background: rgb(17,17,17);
-	background: linear-gradient(124deg, rgba(17,17,17,1) 0%, rgba(9,49,89,1) 100%); 
+	background: rgb(17, 17, 17);
+	background: linear-gradient(124deg, rgba(17, 17, 17, 1) 0%, rgba(9, 49, 89, 1) 100%);
 	padding: 1.4rem;
 	text-align: center;
 	margin-top: 1rem;
@@ -123,4 +122,15 @@ footer a {
 	text-decoration: none;
 	color: #aaa;
 	margin: 0 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.card {
+		min-width: 300px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.card {
+		min-width: 250px;
+	}
 }
